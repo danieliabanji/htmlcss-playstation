@@ -1,0 +1,118 @@
+:root{
+    --black: #1F1F1F;
+    --blue: #3A6DE7;
+    --light-grey: #BEBCBB;
+    --dark-blue: #161C3B;
+    --red: #CD3D0F;
+    --lavish-white: #D9DADC;
+
+}
+
+/* GENERAL */
+body{
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* HEADER */
+
+/* HEADER LOGO */
+.logo img{
+    width: 80px;
+    height: 40px;
+}
+
+header .my_nav_hover:hover{
+    color: #0070D1 !important;
+}
+
+.my_visible, .my_visible_none{
+    width: 10px;
+}
+
+.my_nav_hover:hover .my_visible{
+    display: none;
+}
+
+.my_visible_none{
+    display: none;
+}
+
+.my_nav_hover:hover .my_visible_none{
+    display: inline;
+}
+
+.my_dropdown_a{
+    text-decoration: none;
+}
+
+.my_dropdown_a:hover{
+    text-decoration: underline;
+}
+
+::marker{
+    color: #0070D1;
+}
+
+/* HEADER BOTTOM RIGHT */
+.lens{
+    height: 25px;
+    vertical-align: middle;
+}
+
+.my_btn_black:hover{
+    color: #fff;
+    border: 1px solid #fff !important;
+    outline: 2px solid black;
+}
+
+/* MAIN */
+
+/* HERO SECTION */
+#hero-section{
+    height: 1000px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* position absolute */
+.my_absolute_bottom{
+    position: absolute;
+    bottom: 20px;
+}
+
+/* grandezza logo returnals */
+.my_logo_returnals{
+    width: 50%;
+}
+
+/* altezza */
+.my_height{
+    height: 100%;
+}
+
+/* bottone arancione acquista ora */
+.my_btn_orange{
+    background-color: #CD3D0F;
+    color: #fff;
+}
+
+.my_btn_orange:hover{
+    color: #fff;
+    border: 1px solid black;
+    outline: 2px solid #CD3D0F;
+}
+
+/* gallery */
+.my_images:hover{
+    padding: 2px 2px;
+    border: 2px solid #0070D1;
+    transform: scale(1);
+}
+.my_rounded{
+    border-radius: 20px;
+}
