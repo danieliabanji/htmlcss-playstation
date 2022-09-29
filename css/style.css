@@ -104,6 +104,7 @@ header .my_nav_hover:hover{
     padding: 2px 2px;
     border: 2px solid var(--blue);
     transform: scale(1);
+    
 }
 .my_rounded{
     border-radius: 20px;
@@ -139,4 +140,21 @@ header .my_nav_hover:hover{
 /* NUOVE USCITE SECTION */
 .my_bg_black{
     background-color: var(--black);
+}
+/* PLAYSTATION PLUS */
+.my_bg_light_grey{
+    background-color: var(--light-grey);
+}
+.my_plus img{
+    width: 50%;
+}
+
+.my_btn_transparent{
+    color: var(--blue);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.my_btn_transparent:hover{
+   border: 1px solid var(--light-grey);
+   outline: 2px solid rgba(255, 255, 255, 0.5);
 }
