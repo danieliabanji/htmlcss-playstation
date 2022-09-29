@@ -126,3 +126,17 @@ header .my_nav_hover:hover{
     border-bottom: 2px solid #0070D1;
     height: 100%;
 }
+/* IT TAKES TWO SECTION */
+.bg_it-takes-two{
+    height: 700px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.my_logo_takes_two{
+    max-width: 40%;
+}
+/* NUOVE USCITE SECTION */
+.my_bg_black{
+    background-color: var(--black);
+}
