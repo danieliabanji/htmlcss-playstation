@@ -158,7 +158,6 @@ footer{
 }
 .my_play_logo{
     width: 20%;
-    filter: brightness(0) invert(1);
 }
 .my_list{
     list-style-type: none;
