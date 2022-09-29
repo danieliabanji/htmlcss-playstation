@@ -55,9 +55,7 @@ header .my_nav_hover:hover {
 }
 /* MAIN */
 /* HERO SECTION */
-#hero-section {
-    margin-top: 120px;
-}
+
 .bg-hero {
     height: 1000px;
     background-image: url(../img/jumbo-bg.png);
