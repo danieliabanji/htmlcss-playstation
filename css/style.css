@@ -91,7 +91,7 @@ header .my_nav_hover:hover {
 .my_images:hover {
     padding: 2px 2px;
     border: 2px solid var(--blue);
-    transform: scale(1);
+    transform: scale(1) translateY(-10%);
 }
 /* PLAYSTATION SECTION */
 #play-5 {
