@@ -1,4 +1,4 @@
-:root{
+:root {
     --black: #1F1F1F;
     --blue: #3A6DE7;
     --light-grey: #BEBCBB;
@@ -7,70 +7,58 @@
     --lavish-white: #D9DADC;
 
 }
-
 /* GENERAL */
-body{
+body {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
-
-
-
 /* HEADER */
-
 /* HEADER LOGO */
-.logo img{
+.logo img {
     width: 80px;
     height: 40px;
 }
-
-header .my_nav_hover:hover{
+header .my_nav_hover:hover {
     color: var(--blue) !important;
 }
-
-.my_visible, .my_visible_none{
+.my_visible,
+.my_visible_none {
     width: 10px;
 }
-
-.my_nav_hover:hover .my_visible{
+.my_nav_hover:hover .my_visible {
     display: none;
 }
-
-.my_visible_none{
+.my_visible_none {
     display: none;
 }
-
-.my_nav_hover:hover .my_visible_none{
+.my_nav_hover:hover .my_visible_none {
     display: inline;
 }
-
-.my_dropdown_a{
+.my_dropdown_a {
     text-decoration: none;
 }
-
-.my_dropdown_a:hover{
+.my_dropdown_a:hover {
     text-decoration: underline;
 }
-
-::marker{
+::marker {
     color: var(--blue);
 }
-
 /* HEADER BOTTOM RIGHT */
-.lens{
+.lens {
     height: 25px;
     vertical-align: middle;
 }
-
-.my_btn_black:hover{
+.my_btn_black:hover {
     color: #fff;
     border: 1px solid #fff !important;
     outline: 2px solid black;
 }
-
 /* MAIN */
 /* HERO SECTION */
-.bg-hero{
+#hero-section {
+    margin-top: 120px;
+}
+.bg-hero {
     height: 1000px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -78,93 +66,89 @@ header .my_nav_hover:hover{
     background-size: cover;
 }
 /* position absolute */
-.my_absolute_bottom{
+.my_absolute_bottom {
     position: absolute;
     bottom: 20px;
 }
 /* grandezza logo returnals */
-.my_logo_returnals{
+.my_logo_returnals {
     width: 50%;
 }
-.my_height{
+.my_height {
     height: 100%;
 }
 /* bottone arancione acquista ora */
-.my_btn_orange{
+.my_btn_orange {
     background-color: var(--orange);
     color: #fff;
 }
-.my_btn_orange:hover{
+.my_btn_orange:hover {
     color: #fff;
     border: 1px solid black;
     outline: 2px solid var(--orange);
 }
 /* gallery */
-.my_images:hover{
+.my_images:hover {
     padding: 2px 2px;
     border: 2px solid var(--blue);
     transform: scale(1);
-    
 }
 /* PLAYSTATION SECTION */
-#play-5{
+#play-5 {
     max-width: 100%;
 }
-.my_selected{
+.my_selected {
     border-bottom: 2px solid var(--blue);
 }
-.my_opacity{
+.my_opacity {
     filter: opacity(0.5);
     border-bottom: 2px solid transparent;
 }
-
-.my_opacity:hover{
+.my_opacity:hover {
     cursor: pointer;
     filter: opacity(1);
     border-bottom: 2px solid #0070D1;
     height: 100%;
 }
 /* IT TAKES TWO SECTION */
-.bg_it-takes-two{
+.bg_it-takes-two {
     height: 700px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}.my_logo_takes_two{
+}
+.my_logo_takes_two {
     max-width: 40%;
 }
 /* NUOVE USCITE SECTION */
-.my_bg_black{
+.my_bg_black {
     background-color: var(--black);
 }
 /* PLAYSTATION PLUS */
-.my_bg_light_grey{
+.my_bg_light_grey {
     background-color: var(--light-grey);
 }
-.my_plus img{
+.my_plus img {
     width: 50%;
 }
-
-.my_btn_transparent{
+.my_btn_transparent {
     color: var(--blue);
     background-color: rgba(255, 255, 255, 0.5);
 }
-
-.my_btn_transparent:hover{
-   border: 1px solid var(--light-grey);
-   outline: 2px solid rgba(255, 255, 255, 0.5);
+.my_btn_transparent:hover {
+    border: 1px solid var(--light-grey);
+    outline: 2px solid rgba(255, 255, 255, 0.5);
 }
 /* PLAYSTATION NOW */
-.my_bg_dark_blue{
+.my_bg_dark_blue {
     background-color: var(--dark-blue);
 }
-.my_btn_white{
+.my_btn_white {
     color: black;
     background-color: #fff;
 }
-
-.my_btn_white:hover{
+.my_btn_white:hover {
     border: 1px solid #161c3b;
     outline: 2px solid #fff;
 }
