@@ -70,13 +70,6 @@ header .my_nav_hover:hover {
     position: absolute;
     bottom: 20px;
 }
-/* grandezza logo returnals */
-.my_logo_returnals {
-    width: 50%;
-}
-.my_height {
-    height: 100%;
-}
 /* bottone arancione acquista ora */
 .my_btn_orange {
     background-color: var(--orange);
@@ -94,9 +87,6 @@ header .my_nav_hover:hover {
     transform: scale(1) translateY(-10%);
 }
 /* PLAYSTATION SECTION */
-#play-5 {
-    max-width: 100%;
-}
 .my_selected {
     border-bottom: 2px solid var(--blue);
 }
@@ -117,9 +107,6 @@ header .my_nav_hover:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.my_logo_takes_two {
-    max-width: 40%;
 }
 /* NUOVE USCITE SECTION */
 .my_bg_black {
@@ -156,12 +143,4 @@ header .my_nav_hover:hover {
 footer{
     background-color: var(--blue);
 }
-.my_play_logo{
-    width: 20%;
-}
-.my_list{
-    list-style-type: none;
-}
-.my_sony{
-    width: 30%;
-}
+
