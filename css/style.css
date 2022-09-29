@@ -106,9 +106,6 @@ header .my_nav_hover:hover{
     transform: scale(1);
     
 }
-.my_rounded{
-    border-radius: 20px;
-}
 /* PLAYSTATION SECTION */
 #play-5{
     max-width: 100%;
@@ -157,4 +154,17 @@ header .my_nav_hover:hover{
 .my_btn_transparent:hover{
    border: 1px solid var(--light-grey);
    outline: 2px solid rgba(255, 255, 255, 0.5);
+}
+/* PLAYSTATION NOW */
+.my_bg_dark_blue{
+    background-color: var(--dark-blue);
+}
+.my_btn_white{
+    color: black;
+    background-color: #fff;
+}
+
+.my_btn_white:hover{
+    border: 1px solid #161c3b;
+    outline: 2px solid #fff;
 }
