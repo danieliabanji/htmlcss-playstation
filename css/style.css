@@ -9,7 +9,7 @@
 }
 /* GENERAL */
 body {
-    background-color: #FFFFFF;
+    background-color: var(--bs-white);
     font-family: 'Roboto', sans-serif;
 }
 /* HEADER */
@@ -45,7 +45,7 @@ header .my_nav_hover:hover {
 }
 .my_dropdown_item:hover{
     color: var(--bs-dropdown-link-hover-color);
-    background-color: #ffffff !important;  
+    background-color: var(--bs-white) !important;  
     border-radius: 20px;
     border: 2px solid var(--blue);
     transform: translateY(-10px);
@@ -56,8 +56,8 @@ header .my_nav_hover:hover {
     vertical-align: middle;
 }
 .my_btn_black:hover {
-    color: #fff;
-    border: 1px solid #fff !important;
+    color: var(--bs-white);
+    border: 1px solid var(--bs-white) !important;
     outline: 2px solid black;
 }
 /* MAIN */
@@ -78,10 +78,10 @@ header .my_nav_hover:hover {
 /* bottone arancione acquista ora */
 .my_btn_orange {
     background-color: var(--orange);
-    color: #fff;
+    color: var(--bs-white);
 }
 .my_btn_orange:hover {
-    color: #fff;
+    color: var(--bs-white);
     border: 1px solid black;
     outline: 2px solid var(--orange);
 }
@@ -138,11 +138,11 @@ header .my_nav_hover:hover {
 }
 .my_btn_white {
     color: black;
-    background-color: #fff;
+    background-color: var(--bs-white);
 }
 .my_btn_white:hover {
     border: 1px solid #161c3b;
-    outline: 2px solid #fff;
+    outline: 2px solid var(--bs-white);
 }
 /* FOOTER */
 footer{
