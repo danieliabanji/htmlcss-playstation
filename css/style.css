@@ -43,6 +43,13 @@ header .my_nav_hover:hover {
 ::marker {
     color: var(--blue);
 }
+.my_dropdown_item:hover{
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: #ffffff !important;  
+    border-radius: 20px;
+    border: 2px solid var(--blue);
+    transform: translateY(-10px);
+}
 /* HEADER BOTTOM RIGHT */
 .lens {
     height: 25px;
@@ -141,4 +148,6 @@ header .my_nav_hover:hover {
 footer{
     background-color: var(--blue);
 }
-
+.my_ps_footer{
+    max-width: 20%;
+}
